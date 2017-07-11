@@ -11,7 +11,7 @@ import BF_segment4 from "./BF_segment4.jsx";
 // use export default for async wrap
 export default function BlankFooter2(props) {
   return (
-    <div className="row">
+    <footer className="row">
       <div className="col-sm-6">
         <BF_segment1 />
       </div>
@@ -21,6 +21,6 @@ export default function BlankFooter2(props) {
       <div className="col-sm-3">
         <BF_segment3 />
       </div>
-    </div>
+    </footer>
   );
 }
