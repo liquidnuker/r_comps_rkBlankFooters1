@@ -2295,6 +2295,10 @@ var _BlankFooter1_wrap = __webpack_require__(25);
 
 var _BlankFooter1_wrap2 = _interopRequireDefault(_BlankFooter1_wrap);
 
+var _BlankFooter2_wrap = __webpack_require__(55);
+
+var _BlankFooter2_wrap2 = _interopRequireDefault(_BlankFooter2_wrap);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Home(props) {
@@ -2306,7 +2310,13 @@ function Home(props) {
       { className: "item-id" },
       "BlankFooter1"
     ),
-    React.createElement(_BlankFooter1_wrap2.default, null)
+    React.createElement(_BlankFooter1_wrap2.default, null),
+    React.createElement(
+      "h2",
+      { className: "item-id" },
+      "BlankFooter2"
+    ),
+    React.createElement(_BlankFooter2_wrap2.default, null)
   );
 }
 
@@ -5974,6 +5984,31 @@ function asyncComponent(config) {
 }
 
 exports.default = asyncComponent;
+
+/***/ }),
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _reactAsyncComponent = __webpack_require__(26);
+
+exports.default = (0, _reactAsyncComponent.asyncComponent)({
+  resolve: function resolve() {
+    return __webpack_require__.e/* import() */(2).then(__webpack_require__.bind(null, 56));
+  }
+}); // wrapper
 
 /***/ })
 /******/ ]);
