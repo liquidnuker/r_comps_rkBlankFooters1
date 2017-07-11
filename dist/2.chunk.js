@@ -121,7 +121,7 @@ function BlankFooter1(props) {
     { className: "row" },
     React.createElement(
       "div",
-      { className: "col-sm-3" },
+      { className: "col-sm-6" },
       React.createElement(_BF_segment2.default, null)
     ),
     React.createElement(
@@ -133,11 +133,6 @@ function BlankFooter1(props) {
       "div",
       { className: "col-sm-3" },
       React.createElement(_BF_segment6.default, null)
-    ),
-    React.createElement(
-      "div",
-      { className: "col-sm-3" },
-      React.createElement(_BF_segment8.default, null)
     )
   );
 }
