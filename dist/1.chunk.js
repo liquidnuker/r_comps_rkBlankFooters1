@@ -1,1 +1,147 @@
-webpackJsonp([1],{41:function(e,t,l){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}function c(e){return React.createElement("footer",{className:"row"},React.createElement("div",{className:"col-sm-3"},React.createElement(u.default,null)),React.createElement("div",{className:"col-sm-3"},React.createElement(s.default,null)),React.createElement("div",{className:"col-sm-3"},React.createElement(d.default,null)),React.createElement("div",{className:"col-sm-3"},React.createElement(f.default,null)))}Object.defineProperty(t,"__esModule",{value:!0}),t.default=c;var a=l(43),u=n(a),r=l(44),s=n(r),o=l(45),d=n(o),i=l(46),f=n(i)},43:function(e,t,l){"use strict";function n(e){return React.createElement("div",null,"segment1")}Object.defineProperty(t,"__esModule",{value:!0}),t.default=n},44:function(e,t,l){"use strict";function n(e){return React.createElement("div",null,"segment2")}Object.defineProperty(t,"__esModule",{value:!0}),t.default=n},45:function(e,t,l){"use strict";function n(e){return React.createElement("div",null,"segment3")}Object.defineProperty(t,"__esModule",{value:!0}),t.default=n},46:function(e,t,l){"use strict";function n(e){return React.createElement("div",null,"segment4")}Object.defineProperty(t,"__esModule",{value:!0}),t.default=n}});
+webpackJsonp([1],{
+
+/***/ 50:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = BlankFooter1;
+
+var _BF_segment = __webpack_require__(52);
+
+var _BF_segment2 = _interopRequireDefault(_BF_segment);
+
+var _BF_segment3 = __webpack_require__(53);
+
+var _BF_segment4 = _interopRequireDefault(_BF_segment3);
+
+var _BF_segment5 = __webpack_require__(54);
+
+var _BF_segment6 = _interopRequireDefault(_BF_segment5);
+
+var _BF_segment7 = __webpack_require__(55);
+
+var _BF_segment8 = _interopRequireDefault(_BF_segment7);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// main BlankFooter1
+// ======================================================/
+
+// use export default for async wrap
+// BlankFooter1 segments
+// ======================================================/
+function BlankFooter1(props) {
+  return React.createElement(
+    "footer",
+    { className: "row" },
+    React.createElement(
+      "div",
+      { className: "col-sm-3" },
+      React.createElement(_BF_segment2.default, null)
+    ),
+    React.createElement(
+      "div",
+      { className: "col-sm-3" },
+      React.createElement(_BF_segment4.default, null)
+    ),
+    React.createElement(
+      "div",
+      { className: "col-sm-3" },
+      React.createElement(_BF_segment6.default, null)
+    ),
+    React.createElement(
+      "div",
+      { className: "col-sm-3" },
+      React.createElement(_BF_segment8.default, null)
+    )
+  );
+}
+
+/***/ }),
+
+/***/ 52:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = BF_segment1;
+function BF_segment1(props) {
+  return React.createElement(
+    "div",
+    null,
+    "segment1"
+  );
+}
+
+/***/ }),
+
+/***/ 53:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = BF_segment2;
+function BF_segment2(props) {
+  return React.createElement(
+    "div",
+    null,
+    "segment2"
+  );
+}
+
+/***/ }),
+
+/***/ 54:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = BF_segment3;
+function BF_segment3(props) {
+  return React.createElement(
+    "div",
+    null,
+    "segment3"
+  );
+}
+
+/***/ }),
+
+/***/ 55:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = BF_segment4;
+function BF_segment4(props) {
+  return React.createElement(
+    "div",
+    null,
+    "segment4"
+  );
+}
+
+/***/ })
+
+});
